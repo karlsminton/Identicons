@@ -1,0 +1,19 @@
+{
+    "name": "kminton/identicons",
+    "description": "Simple implementation of identicons using PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Identicons\\": "src/"
+        }
+    },
+    "require": {
+      "ext-gd": "*"
+    },
+    "authors": [
+        {
+            "name": "Karl Minton",
+            "email": ""
+        }
+    ]
+}
